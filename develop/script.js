@@ -8,7 +8,7 @@ var date = moment().format('dddd, MMMM Do');
 
 var hour = moment().format('H');
 
-
+var form1El = $('#form1');
 
 var hour1El = $('#hour1');
 var hour2El = $('#hour2');
@@ -19,6 +19,8 @@ var hour6El = $('#hour6');
 var hour7El = $('#hour7');
 var hour8El = $('#hour8');
 var hour9El = $('#hour9');
+
+form1El.attr('placeholder', 'A');
 
 dateEl.text(date);
 
@@ -116,4 +118,9 @@ else{
 }
 
 
+bt1El.on('click', function(){
+    var placeholderEl;
+    localStorage.setItem('placeholderEl', 'B');
+    form1El.attr('placeholder', placeholderEl);
 
+});
