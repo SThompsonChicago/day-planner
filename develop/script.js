@@ -67,7 +67,7 @@ console.log(form1El);
 if (9 > hour){
     hour1El.addClass('hrGreen');
 }
-else if(9 === hour){
+else if(9 == hour){
     hour1El.addClass('hrOrange');
 }
 else{
@@ -77,7 +77,7 @@ else{
 if (10 > hour){
     hour2El.addClass('hrGreen');
 }
-else if(10 === hour){
+else if(10 == hour){
     hour2El.addClass('hrOrange');
 }
 else{
@@ -87,7 +87,7 @@ else{
 if (11 > hour){
     hour3El.addClass('hrGreen');
 }
-else if(11 === hour){
+else if(11 == hour){
     hour3El.addClass('hrOrange');
 }
 else{
@@ -97,7 +97,7 @@ else{
 if (12 > hour){
     hour4El.addClass('hrGreen');
 }
-else if(12 === hour){
+else if(12 == hour){
     hour4El.addClass('hrOrange');
 }
 else{
@@ -107,7 +107,7 @@ else{
 if (13 > hour){
     hour5El.addClass('hrGreen');
 }
-else if(13 === hour){
+else if(13 == hour){
     hour5El.addClass('hrOrange');
 }
 else{
@@ -117,7 +117,7 @@ else{
 if (14 > hour){
     hour6El.addClass('hrGreen');
 }
-else if(14 === hour){
+else if(14 == hour){
     hour6El.addClass('hrOrange');
 }
 else{
@@ -127,7 +127,7 @@ else{
 if (15 > hour){
     hour7El.addClass('hrGreen');
 }
-else if(15 === hour){
+else if(15 == hour){
     hour7El.addClass('hrOrange');
 }
 else{
@@ -137,7 +137,7 @@ else{
 if (16 > hour){
     hour8El.addClass('hrGreen');
 }
-else if(16 === hour){
+else if(16 == hour){
     hour8El.addClass('hrOrange');
 }
 else{
@@ -147,7 +147,7 @@ else{
 if (17 > hour){
     hour9El.addClass('hrGreen');
 }
-else if(17 === hour){
+else if(17 == hour){
     hour9El.addClass('hrOrange');
 }
 else{
