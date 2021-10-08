@@ -20,7 +20,7 @@ var hour9El = $('#hour9');
 
 dateEl.text(date);
 
-
+currentDayEl.append(dateEl);
 
 
 if (9 > hour){
@@ -115,4 +115,3 @@ else{
 
 
 
-currentDayEl.append(dateEl);
