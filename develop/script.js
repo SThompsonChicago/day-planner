@@ -20,7 +20,7 @@ var hour9El = $('#hour9');
 
 dateEl.text(date);
 
-hour = 11;
+
 
 
 if (9 > hour){
