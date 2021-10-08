@@ -8,6 +8,8 @@ var date = moment().format('dddd, MMMM Do');
 
 var hour = moment().format('H');
 
+
+
 var hour1El = $('#hour1');
 var hour2El = $('#hour2');
 var hour3El = $('#hour3');
